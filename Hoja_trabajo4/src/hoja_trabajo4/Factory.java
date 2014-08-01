@@ -1,13 +1,13 @@
 /*
  * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * and open the template in the editor.dddd
  */
 package hoja_trabajo4;
-///ddd
+
 /**
  *
  * @author Jorge
  */
-public class StackInterface {
+public class Factory {
     
 }

@@ -3,11 +3,11 @@
  * and open the template in the editor.
  */
 package hoja_trabajo4;
-///ddd
+
 /**
  *
  * @author Jorge
  */
-public class StackInterface {
+public class ListInterface {
     
 }
