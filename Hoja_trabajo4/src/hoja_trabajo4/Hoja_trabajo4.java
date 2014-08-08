@@ -5,7 +5,7 @@
 package hoja_trabajo4;
 
 /**
- *sfsds
+ *
  * @author Jorge
  */
 public class Hoja_trabajo4 {

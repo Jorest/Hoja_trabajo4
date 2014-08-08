@@ -1,10 +1,11 @@
-public SinglyLinkedList<E> extends abstractList<E>
+
+public class singlyLinkedList<E> extends abstractList<E>
 {
 
    protected int count; // list size
    protected Node<E> head; // ref. to first element
 
-   public SinglyLinkedList()
+   public singlyLinkedList()
    // post: generates an empty list
    {
       head = null;
@@ -78,3 +79,5 @@ public SinglyLinkedList<E> extends abstractList<E>
       }
       return finger != null;
    }
+   
+}

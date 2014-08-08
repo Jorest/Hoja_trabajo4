@@ -1,3 +1,4 @@
+
 public SinglyLinkedList<E> extends abstractList<E>
 protected int count;
 protected DoublyLinkedNode<E> head;
