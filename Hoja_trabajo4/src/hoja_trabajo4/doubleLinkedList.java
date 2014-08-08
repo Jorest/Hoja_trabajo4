@@ -1,11 +1,25 @@
+
+
+
 package hoja_trabajo4;
+/*
 
-public SinglyLinkedList<E> extends abstractList<E>
+
+public class Circular<E> extends abstractList<E> {
+    protected Node<E> tail; 
+    protected int count;
+    
+    public static final Circular circular = new Circular();
+
+
+*/
+
+public class doubleLinkedList<E> extends abstractList<E>{
 protected int count;
-protected DoublyLinkedNode<E> head;
-protected DoublyLinkedNode<E> tail;
+protected doublelinkedNODE<E> head;
+protected doublelinkedNODE<E> tail;
 
-public DoublyLinkedList()
+public doubleLinkedList()
 // post: constructs an empty list
 {
    head = null;
@@ -19,7 +33,7 @@ public void addFirst(E value)
 // post: adds element to head of list
 {
    // construct a new element, making it head
-   head = new DoublyLinkedNode<E>(value, head, null);
+   head = new doublelinkedNODE<E>(value, head, null);
    // fix tail, if necessary
    if (tail == null) tail = head;
    count++;
@@ -31,7 +45,7 @@ public void addLast(E value)
 // post: adds new value to tail of list
 {
    // construct new element
-   tail = new DoublyLinkedNode<E>(value, null, tail);
+   tail = new doublelinkedNODE<E>(value, null, tail);
    // fix up head
    if (head == null) head = tail;
    count++;
@@ -42,7 +56,7 @@ public E removeLast()
 // pre: list is not empty
 // post: removes value from tail of list
 {
-   DoublyLinkedNode<E> temp = tail;
+   doublelinkedNODE<E> temp = tail;
    tail = tail.previous();
    if (tail == null) {
        head = null;
@@ -51,4 +65,19 @@ public E removeLast()
    }
    count--;
    return temp.value();
+}
+
+   public int size(){
+         return 1; 
+     }
+
+
+
+
+
+
+
+
+
+
 }

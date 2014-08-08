@@ -1,4 +1,7 @@
 
+
+
+package hoja_trabajo4;
 public class singlyLinkedList<E> extends abstractList<E>
 {
 
@@ -17,6 +20,11 @@ public class singlyLinkedList<E> extends abstractList<E>
   {
     return count;
   }
+   
+   public E removeLast(){
+        E a = null;
+       return a;
+   }
   
   public void addFirst(E value)
   // post: value is added to beginning of list
