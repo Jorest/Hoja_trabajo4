@@ -20,6 +20,7 @@ public class Hoja_trabajo4 {
      */
     public static void main(String[] args) {
         /*Declaracion de variables*/
+        
         String micadena = null;
         String linea=null;
         StackInterface<String> miStack = new StackVector<String>();
