@@ -1,10 +1,11 @@
-public singlyLinkedList<E> extends abstractList<E>
+package hoja_trabajo4;
 
+public SinglyLinkedList<E> extends abstractList<E>
 
 protected Node<E> tail; 
 protected int count;
 
-public  CircularList()
+public CircularList()
 // pre: constructs a new circular list
 {
    tail = null;
@@ -59,4 +60,3 @@ public E removeLast()
    count--;
    return temp.value();
 }
-

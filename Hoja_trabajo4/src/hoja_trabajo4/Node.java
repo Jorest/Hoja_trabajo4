@@ -1,5 +1,16 @@
-public class Node<E>
-{
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package hoja_trabajo4;
+
+/**
+ *
+ * @author Jorge
+ */
+public class Node<E> {
+    
+    
    protected E data; // value stored in this element
    protected Node<E> nextElement; // ref to next
 
@@ -42,4 +53,5 @@ public class Node<E>
    {
       data = value;
    }
+    
 }

@@ -1,8 +1,8 @@
-
+package hoja_trabajo4;
 import java.util.List;
 
 public abstract class abstractList<E>
-       implements List<E>
+       implements ListInterface<E>
 {
    public abstractList()
    // post: does nothing
